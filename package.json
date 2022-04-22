@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "start-nodemon":"nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,7 +14,11 @@
   "author": "chw-owo",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.0",
     "express": "^4.17.3",
     "mongoose": "^6.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
